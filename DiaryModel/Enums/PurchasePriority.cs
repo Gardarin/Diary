@@ -4,9 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DiaryModel
+namespace DiaryModel.Enums
 {
-    public class Class1
+    public enum PurchasePriority
     {
+        Superior,
+        High,
+        Middle,
+        Low,
+        Lower
     }
 }
